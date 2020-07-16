@@ -27,7 +27,7 @@ use Grido\Exception;
  */
 class Condition
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     const OPERATOR_OR = 'OR';
     const OPERATOR_AND = 'AND';

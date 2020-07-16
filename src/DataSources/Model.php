@@ -24,7 +24,7 @@ use Grido\Exception;
  */
 class Model
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     /** @var array */
     public $callback = [];

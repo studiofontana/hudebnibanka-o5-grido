@@ -29,7 +29,7 @@ use Nette\Utils\Strings;
  */
 class ArraySource  implements IDataSource
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     /** @var array */
     protected $data;

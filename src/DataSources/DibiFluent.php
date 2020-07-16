@@ -28,7 +28,7 @@ use Grido\Exception;
  */
 class DibiFluent  implements IDataSource
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     /** @var \DibiFluent */
     protected $fluent;

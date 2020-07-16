@@ -22,7 +22,7 @@ use Grido\Exception;
  */
 class FileTranslator  implements \Nette\Localization\ITranslator
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     /** @var array */
     protected $translations = [];

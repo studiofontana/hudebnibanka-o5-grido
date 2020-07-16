@@ -27,7 +27,7 @@ use Grido\Components\Filters\Condition;
  */
 class NetteDatabase  implements IDataSource
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     /** @var \Nette\Database\Table\Selection */
     protected $selection;

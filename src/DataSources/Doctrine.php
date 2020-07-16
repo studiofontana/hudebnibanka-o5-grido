@@ -34,7 +34,7 @@ use Doctrine\ORM\Tools\Pagination\Paginator;
  */
 class Doctrine  implements IDataSource
 {
-    use Nette\SmartObject;
+    use \Nette\SmartObject;
 
     /** @var \Doctrine\ORM\QueryBuilder */
     protected $qb;
